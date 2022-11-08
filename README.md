@@ -27,7 +27,7 @@ When it comes to production though, because tailwind is incredibly performance f
 * The default development build of Tailwind CSS is 2413.4kB uncompressed, and 190.2kB minified
 * Tailwind automatically removes all unused CSS, ultimately giving a much smaller CSS file for production
 * They cound with their own [playground site](https://play.tailwindcss.com/) to test their utilities
-* Used by more than 2.8 m people and with 255 contributors
+* Used by more than 2.8 m people and with 255 contributors ( [Github](https://github.com/tailwindlabs/tailwindcss) )
 * MIT license for their simple utility classes
 * Tailwind UI Personal Package: one payment of 249 Euros (500+ components, site templates, and lifetime access)
 * Tailwind UI Teams Package: one payment of 749 Euros (Everything in the personal package but with access for up to 25 people)
@@ -42,3 +42,4 @@ When it comes to production though, because tailwind is incredibly performance f
 | Wide variety of default utilities | A higher learning curve for people who only have a basic knowledge of CSS or no knowledge at all, in comparison to other frameworks |
 | (Some) Free and easy to implement pure CSS components ||
 
+## [Bootstrap](https://getbootstrap.com/)
