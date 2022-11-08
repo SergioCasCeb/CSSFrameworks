@@ -24,11 +24,12 @@ When it comes to production though, because tailwind is incredibly performance f
 
 **Characteristics:**
 
-* The default development build of Tailwind CSS is 2413.4kB uncompressed, and 190.2kB minified
+* The default development build of Tailwind CSS is 2413.4kB uncompressed, and 190.2kB minified (Final CSS file >10kB)
+* Simple installation through Tailwinds CLI, CDN (Not recommended for production), as a PostCSS plugin, and it also includes framework specific guides
 * Tailwind automatically removes all unused CSS, ultimately giving a much smaller CSS file for production
-* They cound with their own [playground site](https://play.tailwindcss.com/) to test their utilities
+* They count with their own [playground site](https://play.tailwindcss.com/) to test their utilities
 * Used by more than 2.8 m people and with 255 contributors ( [Github](https://github.com/tailwindlabs/tailwindcss) )
-* MIT license for their simple utility classes
+* MIT license for their utilities and certain components and templates
 * Tailwind UI Personal Package: one payment of 249 Euros (500+ components, site templates, and lifetime access)
 * Tailwind UI Teams Package: one payment of 749 Euros (Everything in the personal package but with access for up to 25 people)
 * Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v3.2.2 released on 05.11.2022)
@@ -42,4 +43,28 @@ When it comes to production though, because tailwind is incredibly performance f
 | Wide variety of default utilities | A higher learning curve for people who only have a basic knowledge of CSS or no knowledge at all, in comparison to other frameworks |
 | (Some) Free and easy to implement pure CSS components ||
 
-## [Bootstrap](https://getbootstrap.com/)
+## [Bootstrap 5](https://getbootstrap.com/)
+
+Bootstrap is a leading free, open-source front-end development framework for the creation of responsive websites and web applications. Although it is a front-end framework it is often referred to as a CSS Framework. This framework comes with a responsive grid system based on flexbox, global CSS variables, extensive pre-built components and utilities, and JavaScript plugins to speed up the development process. It is also possible to include either just the CSS or the JavaScript compiled files.
+
+Since the release of Bootstrap version 5, it does not longer require the use of jQuery and it utilizes SASS as its CSS preprocessor to handle all its global values, utilities, and components which can also be overwritten and customized.
+
+In comparison to Tailwind CSS which is a pure CSS framework, Bootstrap has a few components that rely on specific JS plugins in order to handle certain specific behaviors. Nonetheles most of the components and utilities can be used and accessed just by using their CSS files.
+It is also worth noting that contrary to Tailwind which makes sure only the necessary CSS is being used, Bootstrap includes every single value, utility, and component unless it is explicitly removed or overwritten.
+
+* The default bundle size of Bootstrap CSS (no JS) ~20kB compressed and ~116kB uncompressed
+* It can easily be included via CDN, installed via the package manager, or by downloading the source code
+* Completely free to use (MIT license)
+* Bootstrap is the eighth most starred project on GitHub, with over 158,000 stars
+* Completely responsive and mobile first
+* Over [21 million websites use Bootstrap](https://trends.builtwith.com/docinfo/Twitter-Bootstrap)
+* [Premium templates](https://themes.getbootstrap.com/) for sites and dashboard (around $49)
+* Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v5.2.2 released on 03.10.2022)
+
+| Advantages  | Disadvantages |
+|     ---     |    ----     |
+|  |  |
+|  |  | 
+|  |  |
+|  |  |
+|  |  |
