@@ -63,8 +63,8 @@ It is also worth noting that contrary to Tailwind which makes sure only the nece
 
 | Advantages  | Disadvantages |
 |     ---     |    ----     |
-|  |  |
-|  |  | 
-|  |  |
-|  |  |
-|  |  |
+| Wide options of components | Some components rely on JS |
+| Fully responsive (mobile first) | Components and utilities can be complicated to work around | 
+| Defalt JS pluging to handle behaviors | Knowledge in SASS is necessary to personalize components |
+| Easy to learn and start implementing | If not removed explicitely all default utilities and components are added to the CSS |
+|  | Even though some components handle hover and focus animations, there is no given way to modify this, so to have personalized animations and transitions have to be added normally in the CSS |
