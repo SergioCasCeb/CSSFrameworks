@@ -29,7 +29,7 @@ When it comes to production though, because tailwind is incredibly performance f
 * Tailwind automatically removes all unused CSS, ultimately giving a much smaller CSS file for production
 * They count with their own [playground site](https://play.tailwindcss.com/) to test their utilities
 * Used by more than 2.8 m people and with 255 contributors ( [Github](https://github.com/tailwindlabs/tailwindcss) )
-* MIT license for their utilities and certain components and templates
+* MIT license for all their utilities and certain components and templates
 * Tailwind UI Personal Package: one payment of 249 Euros (500+ components, site templates, and lifetime access)
 * Tailwind UI Teams Package: one payment of 749 Euros (Everything in the personal package but with access for up to 25 people)
 * Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v3.2.2 released on 05.11.2022)
@@ -37,7 +37,7 @@ When it comes to production though, because tailwind is incredibly performance f
 
 | Advantages  | Disadvantages |
 |     ---     |    ----     |
-| Minimal CSS | In order to create a more unique feeling it could be necessary to overwrite and create many personalized values |
+| Minimal and modular CSS | In order to create a more unique feeling it could be necessary to overwrite and create many personalized values |
 | Flexible and easily customizable | With all the default values the build can take up an average between a few miliseconds to 5 seconds | 
 | Consistent layout and overall feeling | Animations, transitions and pseudo-classes (hover, focus, etc.) might require personalized code for better functionality |
 | Wide variety of default utilities | A higher learning curve for people who only have a basic knowledge of CSS or no knowledge at all, in comparison to other frameworks |
@@ -51,6 +51,8 @@ Since the release of Bootstrap version 5, it does not longer require the use of 
 
 In comparison to Tailwind CSS which is a pure CSS framework, Bootstrap has a few components that rely on specific JS plugins in order to handle certain specific behaviors. Nonetheles most of the components and utilities can be used and accessed just by using their CSS files.
 It is also worth noting that contrary to Tailwind which makes sure only the necessary CSS is being used, Bootstrap includes every single value, utility, and component unless it is explicitly removed or overwritten.
+
+**Characteristics:**
 
 * The default bundle size of Bootstrap CSS (no JS) ~20kB compressed and ~116kB uncompressed
 * It can easily be included via CDN, installed via the package manager, or by downloading the source code
@@ -68,3 +70,46 @@ It is also worth noting that contrary to Tailwind which makes sure only the nece
 | Defalt JS pluging to handle behaviors | Knowledge in SASS is necessary to personalize components |
 | Easy to learn and start implementing | If not removed explicitely all default utilities and components are added to the CSS |
 |  | Even though some components handle hover and focus animations, there is no given way to modify this, so to have personalized animations and transitions have to be added normally in the CSS |
+
+## [Bulma](https://bulma.io/)
+
+Bulma is a free, open-source CSS framework built primarily with Sass and a Flexbox system. It offers modular columns and it provides some default utilities for rapid UI development.
+
+Bulma is completely responsive, and like Tailwind CSS is also modular, allowing the use of only the components and utilities that the project might require. Nonetheless, unlike Bootstrap, Bulma is a CSS pure framework, meaning that the behavior and event handling that the project might require has to be added personally.
+
+Finally, Bulma has a really simple, readable, and easy-to-use naming system for its utilities and components, which makes it easier for everyone to understand what each class is doing.
+
+* The size of bulma v0.9.4 is 201.9 kB (minified), and 26.9 kB when compressed
+* Can be installed through NPM, Yarn and Bower or directly downloaded from their website and github
+* Completely free to use (MIT license)
+* More than 200k users
+* Completely responsive with a mobile-first approach
+* Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v0.9.4 released on 08.05.2022)
+
+| Advantages  | Disadvantages |
+|     ---     |    ----     |
+| Fully responsive (mobile first)  | No behavior and event handling |
+| Easy to learn and understand  | It requires the use of Sass to customize the utilities | 
+| Modular  | The default values only cover a really basic amount of values |
+| Flexible and easily customizable  | No hover, transitions or animation utilities |
+
+## [Skeleton](http://getskeleton.com/)
+
+As implied by its name, Skeleton more than a CSS or UI Framework, and as stated on their official [Github](https://github.com/dhg/Skeleton), " Skeleton is a simple, responsive boilerplate to kickstart any responsive project".
+Skeleton is perfect for smaller projects (minified size of 176 B) that don't require much setup or when all the utilities from bigger frameworks seem too much for the project at hand. Skeleton only styles a few standard HTML elements (typography, buttons, forms, lists, code, tables), it has a simple 12-column grid system, 4 utilities to handle the width and float and it can also handle media queries.
+Since it is just a boilerplate it doesn't require any maintenance, hence why the last release was in 2014.
+
+**Characteristics:**
+
+* Minified size of 176 B
+* 18.7k stars on Github
+* Completely free to use (MIT license)
+* Last updated on 2014
+
+| Advantages  | Disadvantages |
+|     ---     |    ----     |
+| Incredibly light size  | Grid system that still relies on float |
+| Easy to use | minimal utilities | 
+| Supported by all modern browser versions and most older versions | Non-scalable |
+| Responsive | In more complex projects that require specific customization, most if not all components and utilities will just end up being obsolete |
+||Last time it was modified/updated was on 2014|
