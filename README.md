@@ -126,7 +126,7 @@ Unlike other frameworks, Pure.css encourages users to add new personalized CSS r
 |     ---     |    ----     |
 | Incredibly light size  | Minimal components |
 | Fully responsive (mobile first) | There are no default utilities | 
-| Easily customizable | customization is a must in order to fit the style or feel of the project at hand |
+| Easily customizable | Customization is a must in order to fit the style or feel of the project at hand |
 | Cross-browser compatibility |  |
 | Grids with 5 and 24 base units | |
 
@@ -150,3 +150,22 @@ Since it is just a boilerplate it doesn't require any maintenance, hence why th
 | Supported by all modern browser versions and most older versions | Non-scalable |
 | Responsive | In more complex projects that require specific customization, most if not all components and utilities will just end up being obsolete |
 ||Last time it was modified/updated was on 2014|
+
+
+Finally, this list wouldn't be complete without adding the most basic of them all and another plausible option for the scope of this project, plain CSS.
+
+Since TD Playground right now is in a really early stage and is mostly a static one-page site with minimal features and styles, plain CSS could be one of the best ways to redesign it, which would help to avoid any external packages or dependencies and it really fully on the requirements of the team and the project itself.
+
+Also by predefining all the required values such as fonts, sizes, weights, colors, etc., and using them as root values or variables (in the case of Sass), adding and utilizing such values within the project would be straightforward and would allow for a better consistency within the project, as well as facilitating the implementation of different themes.
+
+Furthermore, if plain CSS were to be used, utilizing a naming convention such as BEM (Block Element Modifier) would further help create scalable and maintainable code by clearly specifying the father/block objects, elements/child objects, and their modifiers. And as a way to further improve the efficiency of using BEM, a transpiler such as Sass could also be utilized.
+
+![BEM-example](https://user-images.githubusercontent.com/72516762/201723923-3bc75f98-70cc-4c91-93a5-ec5823c27cda.jpg)
+
+| Advantages  | Disadvantages |
+|     ---     |    ----     |
+| Everything can be created as its needed | Everything is created as its needed |
+| Easily create a system for consistency |Eveyone must agree on the system| 
+| Size depends on the code | If not done properly, there can be a lot of unncesary code  |
+| Theres no need for external packages or depedencies | For consistency and efficiency everything must be clearly specified from the beginning |
+| Can be easily customized and modified by anyone |  |
