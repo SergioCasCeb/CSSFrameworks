@@ -1,6 +1,13 @@
 # Possible CSS Frameworks/UI Libraries for Playground
 
-After analyzing the most popular CSS frameworks/UI LIbraries of the last few years such as: Tailwind CSS, Bootstrap, Foundation, UI Kit, Materialize, Bulma, Skeleton, Pure CSS, Semantic UI, etc. I personally believe that UI libraries would not be the best approach to redesigning the Playground site due to their constraints regarding customization and scalability. 
+After analyzing the most popular CSS frameworks/UI LIbraries of the last few years such as: Tailwind CSS, Bootstrap, Foundation, UI Kit, Materialize CSS, Bulma, Skeleton, Pure CSS, Semantic UI, etc. I personally believe that UI libraries would not be the best approach to redesigning the Playground site due to their constraints regarding customization and scalability. 
+
+|  | Foundation | UIKit | Materialize CSS| Semantic UI |
+| --- | --- | --- | --- | --- |
+| Size | 60KB CSS & 84KB JS | 133.4 kB (minified), and 43.8 kB when compressed using GZIP | 175.2 kB (minified), and 41.5 kB when compressed using GZIP | 550.8 kB (minified), and 96.9 kB when compressed using GZIP |
+| License | MIT License | MIT License | MIT License | MIT License |
+| Popularity | 29.3k stars | 17.7k stars | 38.7k stars | 50.2k stars |
+| Maintenance | Foundation for Site v6.7.5 (12.07.2022) | UIKit v3.15.12 (04.11.2022) | Materialize v1.0.0 (10.09.2018) | Semantic UI v2.5.0 (06.10.2022) |
 
 While a UI library provides you with "professional" looking components that cater to specific behaviors and allows for easy prototyping, such components will always behave how they were created and will only allow for simple theme changes (font sizes, colors, border radius, etc). Therefore if a component can no longer fulfill the required tasks or specs of the projects, the most common ways to solve this are to override the components completely or find ways to work around them which is often time-consuming and might still not allow for the full customization that was expected.
 
