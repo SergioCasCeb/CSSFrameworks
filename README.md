@@ -24,15 +24,16 @@ When it comes to production though, because tailwind is incredibly performance f
 
 **Characteristics:**
 
-* The default development build of Tailwind CSS is 2413.4kB uncompressed, and 190.2kB minified (Final CSS file >10kB)
-* Simple installation through Tailwinds CLI, CDN (Not recommended for production), as a PostCSS plugin, and it also includes framework specific guides
+* Size: The default development build of Tailwind CSS is 2413.4kB uncompressed, and 190.2kB minified (Final CSS file >10kB)
+* Installation: Simple installation through Tailwinds CLI, CDN (Not recommended for production), as a PostCSS plugin, and it also includes framework specific guides
+* License: MIT license for all their utilities and certain components and templates
+* Paid Packages: 
+  * Tailwind UI Personal Package: one payment of 249 Euros (500+ components, site templates, and lifetime access)
+  * Tailwind UI Teams Package: one payment of 749 Euros (Everything in the personal package but with access for up to 25 people)
+* Popularity: Used by more than 2.8 m people and with 255 contributors ( [Github](https://github.com/tailwindlabs/tailwindcss) )
+* Maintenance: Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v3.2.2 released on 05.11.2022)
 * Tailwind automatically removes all unused CSS, ultimately giving a much smaller CSS file for production
 * They count with their own [playground site](https://play.tailwindcss.com/) to test their utilities
-* Used by more than 2.8 m people and with 255 contributors ( [Github](https://github.com/tailwindlabs/tailwindcss) )
-* MIT license for all their utilities and certain components and templates
-* Tailwind UI Personal Package: one payment of 249 Euros (500+ components, site templates, and lifetime access)
-* Tailwind UI Teams Package: one payment of 749 Euros (Everything in the personal package but with access for up to 25 people)
-* Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v3.2.2 released on 05.11.2022)
 
 
 | Advantages  | Disadvantages |
@@ -54,14 +55,15 @@ It is also worth noting that contrary to Tailwind which makes sure only the nece
 
 **Characteristics:**
 
-* The default bundle size of Bootstrap CSS (no JS) ~20kB compressed and ~116kB uncompressed
-* It can easily be included via CDN, installed via the package manager, or by downloading the source code
-* Completely free to use (MIT license)
-* Bootstrap is the eighth most starred project on GitHub, with over 158,000 stars
-* Completely responsive and mobile first
-* Over [21 million websites use Bootstrap](https://trends.builtwith.com/docinfo/Twitter-Bootstrap)
+* Size: The default bundle size of Bootstrap CSS (no JS) ~20kB compressed and ~116kB uncompressed
+* Installation: It can easily be included via CDN, installed via the package manager, or by downloading the source code
+* License: Completely free to use (MIT license)
 * [Premium templates](https://themes.getbootstrap.com/) for sites and dashboard (around $49)
-* Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v5.2.2 released on 03.10.2022)
+* Popularity: 
+  * Bootstrap is the eighth most starred project on GitHub, with over 158,000 stars
+  * Over [21 million websites use Bootstrap](https://trends.builtwith.com/docinfo/Twitter-Bootstrap)
+* Maintenance: Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v5.2.2 released on 03.10.2022)
+* Completely responsive and mobile first
 
 | Advantages  | Disadvantages |
 |     ---     |    ----     |
@@ -79,12 +81,13 @@ Bulma is completely responsive, and like Tailwind CSS is also modular, allowing 
 
 Finally, Bulma has a really simple, readable, and easy-to-use naming system for its utilities and components, which makes it easier for everyone to understand what each class is doing.
 
-* The size of bulma v0.9.4 is 201.9 kB (minified), and 26.9 kB when compressed
-* Can be installed through NPM, Yarn and Bower or directly downloaded from their website and github
-* Completely free to use (MIT license)
-* More than 200k users
+* Size:The size of bulma v0.9.4 is 201.9 kB (minified), and 26.9 kB when compressed
+* Installation: Can be installed through NPM, Yarn and Bower or directly downloaded from their website and github
+* License: Completely free to use (MIT license)
+* Popularity:More than 200k users
+* Maintenance: Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v0.9.4 released on 08.05.2022)
 * Completely responsive with a mobile-first approach
-* Constant bug fixes and maintenance (The latest version as of 08.11.2022 is v0.9.4 released on 08.05.2022)
+
 
 | Advantages  | Disadvantages |
 |     ---     |    ----     |
@@ -101,10 +104,10 @@ Since it is just a boilerplate it doesn't require any maintenance, hence why th
 
 **Characteristics:**
 
-* Minified size of 176 B
-* 18.7k stars on Github
-* Completely free to use (MIT license)
-* Last updated on 2014
+* Size: Minified size of 176 B
+* Popularity: 18.7k stars on Github
+* License: Completely free to use (MIT license)
+* Maintenance: Last updated on 2014
 
 | Advantages  | Disadvantages |
 |     ---     |    ----     |
