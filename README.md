@@ -1,6 +1,6 @@
 # Possible CSS Frameworks/UI Libraries for Playground
 
-After analyzing the most popular CSS frameworks/UI LIbraries of the last few years such as: Tailwind CSS, Bootstrap, Foundation, UI Kit, Materialize CSS, Bulma, Skeleton, Pure CSS, Semantic UI, etc. I personally believe that UI libraries would not be the best approach to redesigning the Playground site due to their constraints regarding customization and scalability. 
+After analyzing the most popular CSS frameworks/UI LIbraries of the last few years such as: Tailwind CSS, Bootstrap, Foundation, UI Kit, Materialize CSS, Bulma, Skeleton, Pure.CSS, Semantic UI, etc. I personally believe that UI libraries would not be the best approach to redesigning the Playground site due to their constraints regarding customization and scalability. 
 
 |  | Foundation | UIKit | Materialize CSS| Semantic UI |
 | --- | --- | --- | --- | --- |
@@ -102,6 +102,33 @@ Finally, Bulma has a really simple, readable, and easy-to-use naming system for 
 | Easy to learn and understand  | It requires the use of Sass to customize the utilities | 
 | Modular  | The default values only cover a really basic amount of values |
 | Flexible and easily customizable  | No hover, transitions or animation utilities |
+
+## [Pure.CSS](https://purecss.io/)
+
+Pure.CSS is a CSS framework consisting of small and responsive CSS modules for building quick responsive websites and web applications.
+Since Pure.CSS was created for mobile first as a priority, all its components and modules make a minimal CSS footprint with a package size of 3.7KB minified.
+
+As a CSS framework, it does not require any JS dependencies, and it's also built on Normalize.css to allow cross-browser compatibility.
+
+Unlike other frameworks, Pure.css encourages users to add new personalized CSS rules on top of Pure's minimalist design for easy customization instead of having to overwrite existing rules. 
+
+
+**Characteristics:**
+
+* Size: Minified size of 3.7KB
+* Installation: Pure.CSS can be installed by NPM insall or via the free unpkg CDN link
+* Popularity: 22.6k stars on Github and 4.6k users
+* License:  Yahoo BSD License
+* Maintenance: Constant bug fixes and maintenance (The latest version as of 14.11.2022 is v3.0.0 released on 26.10.2022)
+* Completely responsive with a mobile-first approach
+
+| Advantages  | Disadvantages |
+|     ---     |    ----     |
+| Incredibly light size  | Minimal components |
+| Fully responsive (mobile first) | There are no default utilities | 
+| Easily customizable | customization is a must in order to fit the style or feel of the project at hand |
+| Cross-browser compatibility |  |
+| Grids with 5 and 24 base units | |
 
 ## [Skeleton](http://getskeleton.com/)
 
